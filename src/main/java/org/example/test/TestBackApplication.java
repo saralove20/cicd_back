@@ -1,13 +1,13 @@
-package org.example.cicd;
+package org.example.test;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CicdApplication {
+public class TestBackApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CicdApplication.class, args);
+        SpringApplication.run(TestBackApplication.class, args);
     }
 
 }
