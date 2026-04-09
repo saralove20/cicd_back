@@ -33,7 +33,7 @@ public class BoardController {
         return ResponseEntity.ok(result);
     }
 
-    // 게시글 목록 조회 (전체 조회)
+    // 게시글 목록 조회 (전체 조회 )
     @GetMapping("/read/list")
     public ResponseEntity list() {
         List<BoardDto.BoardRes> result = boardService.list();
